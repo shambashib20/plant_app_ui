@@ -1,6 +1,7 @@
-# plant_app_ui
+# Plant_App
 
 A new Flutter project.
+In this project, we recommend which plants to use for which attribute.
 
 ## Getting Started
 
