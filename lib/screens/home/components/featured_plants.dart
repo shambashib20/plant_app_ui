@@ -4,7 +4,7 @@ import '../../../constants.dart';
 
 class FeaturedPlants extends StatelessWidget {
   const FeaturedPlants({
-    Key key,
+    required Key key,
   }) : super(key: key);
 
   @override
@@ -29,7 +29,7 @@ class FeaturedPlants extends StatelessWidget {
 
 class FeaturePlantCard extends StatelessWidget {
   const FeaturePlantCard({
-    Key key,
+    required Key key,
     this.image,
     this.press,
   }) : super(key: key);
@@ -42,6 +42,7 @@ class FeaturePlantCard extends StatelessWidget {
     return GestureDetector(
       onTap: press,
       child: Container(
+        // ignore: prefer_const_constructors
         margin: EdgeInsets.only(
           left: kDefaultPadding,
           top: kDefaultPadding / 2,
