@@ -15,4 +15,14 @@ class HomeScreen extends StatelessWidget {
       bootomNavigationBar: MyBottomNavbar(),
     );
   }
+
+  AppBar buildAppBar() {
+    return AppBar(
+      elevation: 0,
+      leading: IconButton(
+        icon: SvgPicture.asset("assets/icons/menu.svg"),
+        onPressed: () {},
+      ),
+    );
+  }
 }
